@@ -1,5 +1,6 @@
 // 1
-/*function upperCase(str) {
+function upperCase(str) {
+    let text = prompt("enter text:");
   if (str.charAt(0) === str.charAt(0).toUpperCase()) {
     return "String's starts with uppercase character";
   } else {
@@ -7,8 +8,9 @@
   }
 }
 console.log(upperCase('regexp')); // "String's not starts with uppercase character"
-console.log(upperCase('RegExp')); // "String's starts with uppercase character"*/
+console.log(upperCase('RegExp')); // "String's starts with uppercase character"
 //2
+/*
 function checkEmail(email) {
   // Використовуємо регулярний вираз для перевірки відповідності рядка шаблону email
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -44,3 +46,4 @@ function checkLogin(str) {
   const matches = str.match(/\d+(\.\d+)?/g);
   return regex.test(str) && matches !== null;
 }
+*/
